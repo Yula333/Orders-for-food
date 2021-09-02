@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="slogan">Закажешь быстро! Поешь вкусно!</string>
+    <string name="register">Регистрация</string>
+    <string name="auth">Авторизация</string>
+    <string name="hintPhone">Номер телефона</string>
+    <string name="hintPassword">Пароль</string>
+    <string name="hintName">Имя</string>
+    <string name="authUser">Войти в кабинет</string>
+    <string name="addToCart">Добавить в корзину</string>
+    <string name="goToCart">Перейти в корзину</string>
+    <string name="textCart">Корзина</string>
+    <string name="btnMakeOrder">Оформить заказ</string>
+
+</resources>

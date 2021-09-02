@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+
+    <com.jgabrielfreitas.core.BlurImageView
+        android:id="@+id/blurImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic123" />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:backgroundTint="@color/text"
+            android:baselineAligned="false"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_bold"
+            android:hint="@string/hintPhone"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingHorizontal="25sp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="343dp"
+            android:layout_height="67dp"
+            android:paddingHorizontal="25sp"
+            android:backgroundTint="@color/text"
+            android:baselineAligned="false"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_bold"
+            android:hint="@string/hintPassword"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:textColor="@color/text"
+            android:textColorHint="@color/text"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignInUser"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/btnSignUp"
+        android:fontFamily="@font/montserrat"
+        android:padding="10dp"
+        android:text="@string/authUser"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
